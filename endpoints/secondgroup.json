@@ -1,0 +1,28 @@
+{
+    "group_name": "API2 Group",
+    "base_url": null,
+    "calls":[{ 
+        "name": "POST check",
+        "req_url": "http://mockbin.com/request?foo=bar&foo=baz",
+        "req_method": "POST",
+        "req_headers": [{"content-type":"application/json"}],
+        "req_body":null,
+        "resp_code": 200, 
+        "resp_content_type": "application/json; charset=utf-8",
+        "resp_headers": null, 
+        "resp_body":null 
+    },
+    { 
+        "name": "JSON List check",
+        "req_url": "https://jsonplaceholder.typicode.com/posts",
+        "req_method": "GET",
+        "req_headers": [{"content-type":"application/json"}],
+        "req_body":null,
+        "resp_code": 200, 
+        "resp_content_type": "application/json; charset=utf-8",
+        "resp_headers": null, 
+        "resp_body":"jsonlistcheck.json",
+        "resp_compare_extent": "partial"
+    }
+    ]
+}

@@ -1,0 +1,23 @@
+GLOBAL:
+group name:
+host:
+global_headers:
+
+
+
+
+
+[Endpoint]
+Name
+endpoint_uri
+request:
+    method
+    content-type
+
+
+response:
+    "response-code":
+    "content-type":
+    "body": 
+
+

@@ -1,0 +1,27 @@
+{
+    "group_name": "API1",
+    "base_url": "https://api.myjson.com",
+    "calls":[{ 
+        "name": "Endpoint 1",
+        "req_url": "/bins/1eg3hs",
+        "req_method": "GET",
+        "req_headers": [{"content-type":"application/json"}],
+        "resp_code": 200, 
+        "resp_content_type": "application/json",
+        "resp_headers": null, 
+        "resp_body_file": "endpoint1.json",
+        "resp_compare_extent": "full"
+    },
+    { 
+        "name": "Endpoint 2",
+        "req_url": "/bins/1eg3hs",
+        "req_method": "GET",
+        "req_headers": [{"content-type":"application/json"}],
+        "resp_code": 200, 
+        "resp_content_type": "application/json",
+        "resp_headers": null, 
+        "resp_body_file":"endpoint1.json",
+        "resp_compare_extent": "partial"
+    }
+    ]
+}
